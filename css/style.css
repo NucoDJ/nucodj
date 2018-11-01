@@ -747,10 +747,19 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* Call To Action Section
 --------------------------------*/
+
 #call-to-action {
-  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), url(../img/reserve-nucodj.jpg) fixed center center;
+  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), url(../img/reserve-nucodj.jpg) center center;
   background-size: cover;
   padding: 200px 0;
+}
+
+  @media (min-width: 992px) {
+  #call-to-action {
+    background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), url(../img/reserve-nucodj.jpg) fixed center center;
+    background-size: cover;
+    padding: 200px 0;
+  }
 }
 
 #call-to-action h3 {
