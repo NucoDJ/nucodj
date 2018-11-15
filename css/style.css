@@ -1192,7 +1192,7 @@ photo gallery
 
 .item {
   position: relative;
-  border: 1px solid #333;
+  /*border: 1px solid #333;*/
   /* margin: 2%; */
   overflow: hidden;
   width: 440px;
