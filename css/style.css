@@ -1198,7 +1198,7 @@ photo gallery
   width: 440px;
   height: 290px;
 }
-
+/*
 .item:hover img {
   -moz-transform: scale(1.1);
   -webkit-transform: scale(1.1);
@@ -1208,7 +1208,7 @@ photo gallery
 -ms-transition: all 300ms ease;
 -o-transition: all 300ms ease;
 transition: all 300ms ease;
-}
+}*/
 
 /* @media (max-width: 1200px) {
   #photos {
